@@ -43,7 +43,12 @@ console.log(Fahrenheit)
 // Dica: use o operador % (resto da divisão)
 // Se numero % 2 === 0, é par.
 // ------------------------------------------------------------
-
+let numero = 5;
+if (numero % 2 === 0) {
+    console.log("o numero é par");
+}else{
+    console.log("o numero é impar");
+}
 
 
 
