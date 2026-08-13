@@ -33,8 +33,9 @@ console.log(n1 / n2)
 // Fórmula: F = C * 9/5 + 32
 // ------------------------------------------------------------
 
-
-
+let Celsius = 5;
+let Fahrenheit = Celsius * 9/5 + 32
+console.log(Fahrenheit)
 
 // EXERCÍCIO 3 - Par ou ímpar
 // Crie uma variável com um número.
