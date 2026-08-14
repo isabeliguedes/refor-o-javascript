@@ -98,8 +98,8 @@ if(idade >= 18){
 //   25 até 29.9    = "Sobrepeso"
 //   30 ou mais     = "Obesidade"
 // ------------------------------------------------------------
-let kg = 46
-let altura = 1.60
+let kg = 77
+let altura = 1.59
 let imc = kg / (altura * altura)
 
 if(imc > 18.5){
@@ -122,8 +122,25 @@ console.log("obesidade");
 //   let computador = opcoes[Math.floor(Math.random() * 3)]
 // Compare as jogadas e mostre quem ganhou.
 // ------------------------------------------------------------
+let jogada = "tesoura";
 
+let opcoes = ['pedra', 'papel', 'tesoura'];
+let computador = opcoes[Math.floor(Math.random() * 3)];
 
+console.log("voce:", jogada)
+console.log("computador:", computador);
+
+if (jogada === computador) {
+    console.log("empate!");
+}else if(
+    (jogada === "pedra" && computador === "tesoura")
+    (jogada === "papel" && computador === "pedra")
+    (jogada === "tesoura" && computador === "papel")
+) {
+    console.log("voce ganhou!");
+}else{
+    console.log("computador ganhou!");
+}
 
 
 // EXERCÍCIO 8 - Sistema de notas
