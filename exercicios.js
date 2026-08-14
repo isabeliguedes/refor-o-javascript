@@ -98,7 +98,19 @@ if(idade >= 18){
 //   25 até 29.9    = "Sobrepeso"
 //   30 ou mais     = "Obesidade"
 // ------------------------------------------------------------
+let kg = 46
+let altura = 1.60
+let imc = kg / (altura * altura)
 
+if(imc > 18.5){
+    console.log("abaixo do peso");
+}else if (imc < 25) {
+console.log("peso normal");
+}else if (imc < 30) { 
+console.log ("sobre peso");
+}else{ 
+console.log("obesidade");
+}
 
 
 
