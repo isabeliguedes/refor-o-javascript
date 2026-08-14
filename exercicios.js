@@ -58,8 +58,16 @@ if (numero % 2 === 0) {
 // Se a média for >= 7, mostre "Aprovado".
 // Se não, mostre "Reprovado".
 // ------------------------------------------------------------
+let nota1 = 8
+let nota2 = 10
+let nota3 = 6
+let resultado = (nota1 + nota2 + nota3)/3 
 
-
+if(resultado >= 7){
+console.log("aprovado")
+}else{
+ console.log("reprovado")
+}
 
 
 // ============================================================
