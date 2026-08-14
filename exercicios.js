@@ -80,7 +80,12 @@ console.log("aprovado")
 // Se for >= 18, mostre "Maior de idade".
 // Se não, mostre "Menor de idade".
 // ------------------------------------------------------------
-
+let idade = 15
+if(idade >= 18){
+    console.log("maior de idade")
+}else{
+    console.log("menor de idade")
+}
 
 
 
