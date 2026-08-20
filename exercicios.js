@@ -152,7 +152,21 @@ if (jogada === computador) {
 //   4 e 3    = "D"
 //   2, 1, 0  = "F"
 // ------------------------------------------------------------
+let nota = 8.5; 
 
+if (nota >= 9 && nota <= 10) {
+  console.log("A");
+} else if (nota >= 7) {
+  console.log("B");
+} else if (nota >= 5) {
+  console.log("C");
+} else if (nota >= 3) {
+  console.log("D");
+} else if (nota >= 0) {
+  console.log("F");
+} else {
+  console.log("Nota inválida");
+}
 
 
 
