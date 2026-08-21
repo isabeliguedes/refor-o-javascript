@@ -192,7 +192,11 @@ if (nota >= 9 && nota <= 10) {
 // Mostre cada número no console.
 // No final, mostre "Feliz Ano Novo!" (ou qualquer mensagem).
 // ------------------------------------------------------------
-
+for (let i = 10; i >= 0; i--) {
+    console.log(i);
+  }
+  
+  console.log("Feliz Ano Novo!");
 
 
 
@@ -202,7 +206,14 @@ if (nota >= 9 && nota <= 10) {
 // Mostre o resultado no console.
 // Exemplo: se N = 5, resultado = 1+2+3+4+5 = 15
 // ------------------------------------------------------------
+let N = 5; // Altere este valor para testar outros números
+let soma = 0;
 
+for (let i = 1; i <= N; i++) {
+  soma += i; // Equivale a: soma = soma + i
+}
+
+console.log(`O resultado da soma de 1 até ${N} é: ${soma}`);
 
 
 
